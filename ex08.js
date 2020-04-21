@@ -7,7 +7,7 @@ var o = {
 var f= function(){
 	console.log("Hello world");
 };
-console.log(o);
+
 
 console.log("========================");
 
@@ -23,6 +23,7 @@ f.another = {
 		}
 }
 console.log(o);
+console.log(f);
 console.log(f.another);
 console.log(f.another.info);
 

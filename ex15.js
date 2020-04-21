@@ -16,7 +16,7 @@ Array.prototype.insert = function(index,value){
 //        var __this = this; //여기 this는 Array객체
 //        value.forEach(function(element){
 //            console.log(this + ">>>" + element);//여기 this는 global 객체
-//            this.splice(index++,0,element);
+//            this.splice(index++,0,element); //global => Array로 bind
 //        }.bind(__this));
 
         //클로저 방식

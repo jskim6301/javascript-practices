@@ -13,18 +13,21 @@ a2[0] = 0;
 a2[10] = 10;
 a2[11] = 11;
 a2[12] = 12;
-console.log(a2[1],a2[2]); //배열 요소의 값을 대입하지 않으면 undefined
-console.log(a2.length);
+console.log("11111111111111"+a2[1],a2[2]); //배열 요소의 값을 대입하지 않으면 undefined
+console.log("22222222222222"+a2.length);
 
 a = [];
-a[0] = 0000;
+//a[0] = 0000;
 a["1"] = 1111;
 console.log(a);//[ 0, 1111 ]
-console.log(a["0"],a[0]);//0 0
+//console.log(a["0"],a[0]);//0 0
 console.log(a["1"],a[1]);//1111 1111
-a["name"] = 'abc';
-console.log(a["name"]);//abc
+//a["name"] = 'abc';
+//console.log(a["name"]);//abc
+console.log("----------------배열 --------------------");
 console.log(a.length);//2
+console.log(a);
+
 
 for(property in a){
     console.log("prop " +property+ ":" + typeof(property));//string으로 캐스팅이 된다
@@ -56,3 +59,4 @@ for(var i = 0;i<a4.length;i++){
 }
 
 a4[0]();
+

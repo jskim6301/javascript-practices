@@ -8,6 +8,7 @@ window.addEventListener('load',function(){
 	var intervalId = setInterval(function(){
 		if(index >= rects.length){
 			clearInterval(intervalId);
+			return;
 		}
 		rects[index].show();
 		console.log(rects[index].hasOwnProperty("x"));
